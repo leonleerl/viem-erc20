@@ -1,36 +1,10 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+使用 Viem 完成以下操作：
 
-## Getting Started
+1.给自己的某个账户转账
 
-First, run the development server:
+2.读取该 Erc20（地址：0xa7d726B7F1085F943056C2fB91abE0204eC6d6DA）的合约发行方，每个地址持币数量，每个地址持币上限，总发行量等数据
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+3.写入该 Erc20（地址：0xa7d726B7F1085F943056C2fB91abE0204eC6d6DA），给自己的账户 mint Token（最多 1 万枚）
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4.查询 mint 后自己账户的 Erc20 数量
+要求提交前端页面的 github，并截图 mint 后显示自己账户 Erc20 数量的前端页面，贴出 mint 操作的区块链浏览器的 url
